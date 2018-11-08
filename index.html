@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Portfolio para a disciplina de Autoração Multimídia II">
+  		<meta name="author" content="Saynara Roana">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+
+		<title>Lay Me To Sleep</title>
+	</head>
+
+	<body>
+		<div class="header">
+			<h1 class="header-title">Lay me to Sleep</h1>
+			<a href="#menu" id="scroll">
+				<img src="button/scroll-btn.png" alt="botão de scroll" width="55">
+			</a>
+		</div>
+
+		<div id="menu" class="left-side">
+			<div class="left-side-header">
+				<h2 class="left-side-title">Lay me to Sleep</h2>
+			</div>
+
+			<div class="left-side-container">
+				<div><img class="avatar" src="img/avatar.png" alt="avatar de perfil" height="150"></div>
+				<div class="left-side-sub">
+					<p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation.</p>
+					<button id="aboutModal-btn" class="modalBtn">SOBRE MIM</button>
+					<button id="contactModal-btn" class="modalBtn">CONTATO</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="aboutModal" class="modal">
+			<span id="closeAbout" class="modal-close">X</span>
+			<div class="icon-social">
+				<img class="avatar-about" src="img/avatar.png" height="250">
+				<ul class="about-social">
+					<li><a href="https://twitter.com/dechartesian" target="_blank"><img src="button/icon-twitter.png" height="40"></a></li>
+					<li><a href="https://www.facebook.com/saynara.roana" target="_blank"><img src="button/icon-facebook.png" height="40"></a></li>
+					<li><a href="https://www.instagram.com/killingrave/" target="_blank"><img src="button/icon-instagram.png" height="40"></a></li>
+					<li><a href="https://www.behance.net/laymetosleep" target="_blank"><img src="button/icon-behance.png" height="40"></a></li>
+				</ul>
+			</div>
+
+			<h1 class="modal-title">SOBRE MIM</h1>
+
+			<div class="about-content">
+				<p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+
+		<div id="contactModal" class="modal">
+			<span id="closeContact" class="modal-close">X</span>
+			<h1 class="modal-title">CONTATO</h1>
+
+			<div class="contact">
+				<form action="">
+					<input type="text" name="nome" id="nome" placeholder="nome"><br>
+					<input type="email" name="email" id="email" placeholder="email"><br>
+					<input type="text" name="assunto" id="assunto" placeholder="assunto"><br>
+					<textarea name="mensagem" id="mensagem" placeholder="mensagem" size="40"></textarea><br>
+					<input type="submit" name="enviar" id="enviar" value="enviar"><br>
+				</form>
+			</div>
+		</div>
+
+		<section class="right-side">
+			<div class="post">
+				<div class="post-media">
+					<img src="img/fantasy art.png" class="post-media-img">
+				</div>
+				<div class="post-content">
+					<h2 class="post-title">Growl</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				</div>
+			</div>
+
+			<div class="post">
+				<div class="post-media">
+					<img src="img/tony stark-01.jpg" class="post-media-img">
+				</div>
+				<div class="post-content">
+					<h2 class="post-title">Tony Stark</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				</div>
+			</div>
+		</section>
+
+		<script src="script.js"></script>
+	
+	</body>
+</html>

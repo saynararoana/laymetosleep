@@ -1,4 +1,4 @@
-			<!-- Tornar o menu fixo -->
+			/* Tornar o menu fixo */
             var menu = document.getElementById("menu");
             var origOffsetY = menu.offsetTop;
             document.addEventListener("scroll", fixedMenu);
@@ -15,7 +15,7 @@
     			}
 			}
 
-			<!-- Smooth scroll para anchor point -->
+			/* Smooth scroll para anchor point */
 			document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 	    		anchor.addEventListener('click', function (e) {
 	        		e.preventDefault();
@@ -26,7 +26,7 @@
 	    		});
 			});
 
-			<!-- Modal Boxes -->
+			/* Modal Boxes */
 			var aboutModal = document.getElementById("aboutModal");
 			var showAbout = document.getElementById("aboutModal-btn");
 			var contactModal = document.getElementById("contactModal");
